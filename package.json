@@ -1,0 +1,26 @@
+{
+  "name": "rules",
+  "version": "1.0.0",
+  "description": "rules test",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prithivraj200/rules.git"
+  },
+  "homepage": "https://github.com/Prithivraj200/rules#readme",
+  "keywords": [],
+  "author": "Prithivraj",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
