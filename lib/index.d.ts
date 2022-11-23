@@ -1,1 +1,2 @@
-export declare const Greeter: (name: string) => string;
+export { rules } from './rules';
+export { KeyValue } from './interfaces/generic';
